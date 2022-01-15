@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="deneme.css">
+    <title>Netflix Survey</title>
+    
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign In</title>
+    <link rel="stylesheet" href="deneme.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="struct">
+        <header>
+            <h1>NET<span class="red">FLIX</span></h1>
+            <p>Thank you for signing up at Netflix.Tell us more about yourself</p>
+        </header>
+        <main class="main">
+            <div class="top">
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="top>
+                <label for="Age">Age</label>
+                <input type="number" name="age" id="age" placeholder="Age" required>
+            </div>
+            <div class="top>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="top">
+                <label class="Contenttype">Content type</label>
+                <select name="Content-type" id="Contenttype">
+                    <option value="series">series</option>
+                    <option value="movies">movies</option>
+                    <option value="Documentaries">Documentaries</option>
+                    <option value="Programs">Programs</option>
+                    <option value="Animes">Animes</option>
+                </select>
+            </div>
+            <div>
+                <label class="middle">Movie type</label>
+                <ul>
+                   <li>
+                        <input type="checkbox" name="type-comedy" id="type-comedy" value="Comedy">
+                        <label for="type-comedy">Comedy</label>
+                   </li>
+                   <li>
+                    <input type="checkbox" name="type-action" id="type-action" value="Action" checked>
+                        <label for="type-action">Action</label>
+                   </li>
+                   <li>
+                    <input type="checkbox" name="type-romance" id="type-romance" value="Romance">
+                    <label for="type-romance">Romance</label>
+                   </li>
+                </ul>
+            </div>
+
+            <div>
+                <div>
+                    <label class="middle">Movie type</label>
+                    <ul>
+                       <li>
+                            <input type="radio" name="gender" id="ch1" value="male">
+                            <label for="ch1">Male</label>
+                       </li>
+                       <li>
+                        <input type="radio" name="gender" id="ch2" value="female" checked>
+                            <label for="ch2">Female</label>
+                       </li>
+                       <li>
+                        <input type="radio" name="gender" id="ch3" value="other">
+                        <label for="ch3">Other</label>
+                       </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <label for="feed-back">Feed-Back</label>
+                <textarea name="feed-back" id="feed-back" cols="30" rows="6" placeholder="Any comment"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="submit" id="submit">
+            </div>
+
+        </main>
+    </div>
+    
+</body>
+</html>

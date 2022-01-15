@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medula Optik Reçete Bilgileri </title>
+        <style> 
+        input{
+            background-color: coral;
+        }
+      
+        </style>
+</head>
+<body>
+    <form action="result.html">
+        <fieldset>
+            <legend>
+                Hastanın Bilgileri
+            </legend>
+        
+        <div>
+            <label for="ad">İsim:</label><br>
+            <input type="text" name="username" id="ad" placeholder="Adınızı giriniz">
+            <br><br>
+            <label for="soyad">Soyisim:</label><br>
+            <input type="text" name="surname" id="soyad" placeholder="Soyadınızı giriniz">
+            <br><br>
+            <label for="Tc">TC:</label><br>
+            <input type="number" name="id" id="Tc" pattern="[0-9]{11}" 
+            placeholder="11111111111">
+            <br><br>
+            <label for="e-reçete">E-reçete:</label><br>
+            <input type="text" name="E-number"  id="e-reçete" >
+
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            Reçete Bilgileri
+        </legend>
+        <table 
+        border="2" 
+        width="100%"
+        style="border-collapse: collapse; color: blue;">
+        <caption>
+        Numaralar
+        </caption>
+        <thead>
+            <tr bor>
+                <th>
+                    <label for="">Uzak-Yakın</label>
+                </th>
+               <th>
+                   <label for="">+/-</label>
+               </th>
+               <th>
+                   <label for="">sph</label>
+               </th>
+               <th>
+                <label for="">+/-</label>
+            </th>
+               <th>
+                   <label for="">cpl</label>
+               </th>
+               <th>
+                   <label for="">AX</label>
+               </th>
+               <th>
+                <label for="">+/-</label>
+            </th>
+            <th>
+                <label for="">sph</label>
+            </th>
+            <th>
+                <label for="">+/-</label>
+            </th>
+            <th>
+                <label for="">cpl</label>
+            </th>
+            <th>
+                <label for="">AX</label>
+            </th>
+            </tr>
+            <tr>
+
+                
+                <td>
+                    <label for="">uzak</label>
+
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="ax" pattern="[0-9]{3}">
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="ax" pattern="[0-9]{3}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">yakın</label>
+
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="ax" pattern="[0-9]{3}">
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="0,25">0,25</option>
+                        <option value="0,50">0,50</option>
+                       <option value="0,75">0,75</option>
+                        <option value="1,00">1,00</option>
+                        <option value="1,25">1,25</option>
+                        <option value="1,50">1,50</option>
+                        <option value="1,75">1,75</option>
+                        <option value="2,00">2,00</option>
+                        <option value="2,25">2,25</option>
+                        <option value="2,50">2,50</option>
+                        <option value="2,75">2,75</option>
+                        <option value="3,00">3,25</option>
+                        <option value="3,25">3,25</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="ax" pattern="[0-9]{3}">
+                </td>
+            </tr>
+        </thead>
+            
+
+        </table>
+    </fieldset>
+
+
+    </form>
+    
+</body>
+</html>

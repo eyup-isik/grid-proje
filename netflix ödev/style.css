@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-image: url("background_image.jpg");
+    background-size: cover;
+    color: rgba(255, 255, 255, 1);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.container {
+    width: 95%;
+    margin: auto;
+    background-color: rgba(3, 0, 0, 0.3);
+}
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+header p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 35px;
+}
+.red {
+    color: #F00;
+}
+.main {
+    width: 380px;
+    background-color: rgba(14, 4, 4, 0.8);
+    margin: auto;
+    padding: 1.5% 2% .5%;
+}
+label {
+    display: block;
+}
+.top label, input {
+    margin: 4px auto;
+}
+.middle {
+    margin-top: 15px;
+}
+
+#Content88pe {
+    width: 90%;
+    padding: 2%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+ul label {
+    display: inline;
+}
+textarea {
+    width: 90%;
+    resize: none;
+    margin: 8px auto;
+}
+#name, #age, #email {
+    width: 100%;
+    padding: 8px;
+}
+.button {
+    text-align: center;
+}
+input[type="submit"] {
+    background-color: #F00;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 7px;
+    width: 40%;
+}

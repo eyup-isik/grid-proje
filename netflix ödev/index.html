@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Survey</title>
+</head>
+<body>
+    <div>
+        <h1 id="title">NETFIX</h1>
+    </div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign In</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Net<span class="red">Flix</span></h1>
+            <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
+        </header>
+        <main class="main">
+            <form action="#">
+                <div class="top">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" placeholder="Age">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                    <label class="content">Content type</label>
+                    <select name="content" id="content">
+                        <option value="series" selected>Series</option>
+                        <option value="movies">Movies</option>
+                        <option value="documentaries">Documentaries</option>
+                        <option value="programs">Programs</option>
+                        <option value="animes">Animes</option>
+                    </select>
+                </div>
+
+                <label class="che-rad">Movie type:</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="type1" id="type1" value="comedy">
+                        <label for="type1">Comedy</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="type2" id="type2" value="action" checked>
+                        <label for="type2">Action</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="type3" id="type3" value="romance">
+                        <label for="type3">Romance</label>
+                    </li>
+                </ul>
+
+                <label class="che-rad">Gender:</label>
+                <ul>
+                    <li>
+                        <input type="radio" name="gender" id="choice1" value="male" checked>
+                        <label for="choice1">Male</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="gender" id="choice2" value="female">
+                        <label for="choice2">Female</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="gender" id="choice3" value="other">
+                        <label for="choice3">Other</label>
+                    </li>
+                </ul>
+
+                <label for="feed-back" class="middle">Feed back</label>
+                <textarea name="feed-back" id="feed-back" cols="30" rows="6" placeholder="Any comment"></textarea>
+                
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+                
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

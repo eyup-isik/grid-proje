@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box-sizing</title>
+    <style>
+        #content{
+            box-sizing:content-box;
+            background-color: brown;
+            padding: 20px;
+            border: 5px solid;
+            border-color: darkolivegreen;
+            height: 50px;
+        }
+        #borderBox {
+            box-sizing:border-box;
+            background-color: rgb(204, 74, 22);
+            padding: 20px;  
+            border: 5px solid;
+            border-color: darkgoldenrod;
+            height: 50px;  
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Content-box</h1>
+    <img src="./planets-solar-system-infographic_1308-51879.jpg" alt="" />
+
+    <p id="content">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, itaque
+      consectetur. Recusandae reiciendis hic, iste pariatur soluta aliquam
+      aperiam officia nostrum, libero explicabo, repudiandae suscipit harum quam
+      et dolorum quaerat.
+    </p>
+
+    <h1>borderBox</h1>
+    <img src="./Put-the-Planets-in-Order-Classroom-Activity-Featured-Image-768x274.jpg" alt="">
+    <p id="borderBox">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sit. Iure
+      repellendus qui debitis quo vitae ipsum pariatur error consequuntur sed
+      aliquid, praesentium dicta amet mollitia sunt suscipit accusamus
+      consectetur.
+    </p>
+  </body>
+</html>
