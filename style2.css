@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 45px;
+    color: rgb(14, 15, 2);
+}
+.t1 {
+    /* text-align: center; */
+    margin-left: 150px;
+}

@@ -5,50 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Medula Optik Reçete Bilgileri </title>
-        <style> 
+        <style>
+            body{
+                background-image: url(https://avatars.mds.yandex.net/i?id=2a00000179f0399247cea4f18a15e4c53922-2469813-images-thumbs&n=13)
+                
+            }
+
         input{
-            background-color: coral;
+            background-color: rgb(231, 203, 203);
+            
+        }
+        fieldset{
+            font-size: 30px;
+        
+            text-align: center;
+            width: 100%;
+            font-style: italic;
+            font-weight: 600;
+            /* background-color: rgba(238, 106, 106, 0.705); */
+            background-position: 50%;
+        
+        }
+        .bor {
+            text-align: center;
+            border-color: rgb(80, 13, 13);
+            border-style: double;
+            font-weight: 600;
+
+        }
+        .forms {
+            margin:100px ;   
+            /* width: 150px; */
+            /* background-image: url(https://avatars.mds.yandex.net/i?id=f6a828a788dbd4c507377265e121e03b-4935175-images-thumbs&n=13); */
+            background-size: 100% ;
+            background-color:rgba(231, 101, 101, 0.705);
+           background-size: inherit;
+        }
+        .ad{
+            width: 300px;
+            height: 50px;
         }
       
+          
+            
         </style>
 </head>
 <body>
     <form action="result.html">
         <fieldset>
-            <legend>
+            <legend style="font-size: 50px;">
                 Hastanın Bilgileri
             </legend>
         
-        <div>
-            <label for="ad">İsim:</label><br>
-            <input type="text" name="username" id="ad" placeholder="Adınızı giriniz">
-            <br><br>
-            <label for="soyad">Soyisim:</label><br>
-            <input type="text" name="surname" id="soyad" placeholder="Soyadınızı giriniz">
+        <thead>
+            <tr>
+                <th>
+                    <div class="forms">
+                        <label for="ad">İsim:</label><br>
+                        <input type="text" name="username" class="ad" placeholder="Adınızı giriniz">
+                        <br><br>
+                        <label for="soyad">Soyisim:</label><br>
+                </th>
+            </tr>
+        </thead>
+        
+            <input type="text" name="surname" class="ad" placeholder="Soyadınızı giriniz">
             <br><br>
             <label for="Tc">TC:</label><br>
-            <input type="number" name="id" id="Tc" pattern="[0-9]{11}" 
+            <input type="number" name="id" class="ad" pattern="[0-9]{11}" 
             placeholder="11111111111">
             <br><br>
             <label for="e-reçete">E-reçete:</label><br>
-            <input type="text" name="E-number"  id="e-reçete" >
+            <input type="text" name="E-number"  class="ad" >
 
-        </div>
+      
 
     </fieldset>
     <fieldset>
-        <legend>
+        <legend style="font-size: 40px;">
             Reçete Bilgileri
         </legend>
         <table 
-        border="2" 
+        border="6" 
         width="100%"
-        style="border-collapse: collapse; color: blue;">
+        style="border-collapse: collapse; color: rgb(139, 17, 13);">
         <caption>
         Numaralar
         </caption>
-        <thead>
-            <tr bor>
+        <thead class="bor" style="border: 20px ;font-size: 20px;">
+            <tr>
                 <th>
                     <label for="">Uzak-Yakın</label>
                 </th>
@@ -91,13 +136,13 @@
 
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="tab2">
                         <option value="+">+</option>
                         <option value="-">-</option>
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -114,13 +159,13 @@
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="+">+</option>
                         <option value="-">-</option>
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -137,7 +182,7 @@
                     </select>
                 </td>
                 <td>
-                    <input type="number" name="ax" pattern="[0-9]{3}">
+                    <input type="number" name="ax" pattern="[0-9]{3}" max="180">
                 </td>
                 <td>
                     <select name="" id="">
@@ -146,7 +191,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -163,13 +208,13 @@
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="+">+</option>
                         <option value="-">-</option>
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -201,7 +246,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -218,13 +263,13 @@
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="+">+</option>
                         <option value="-">-</option>
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -244,13 +289,13 @@
                     <input type="number" name="ax" pattern="[0-9]{3}">
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="+">+</option>
                         <option value="-">-</option>
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -267,13 +312,13 @@
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="+">+</option>
                         <option value="-">-</option>
                     </select>
                 </td>
                 <td>
-                    <select name="" id="">
+                    <select name="" class="top">
                         <option value="0,25">0,25</option>
                         <option value="0,50">0,50</option>
                        <option value="0,75">0,75</option>
@@ -301,6 +346,10 @@
 
 
     </form>
+    <div>
+        <textarea name="Bilgilerinizi giriniz" id="text1" cols="50" rows="10" placeholder="Enter your ..."></textarea>
+
+    </div>
     
 </body>
 </html>
