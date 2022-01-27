@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <style>
+        .box{
+            border: 3px solid red;
+            width: 300px;
+            height: 90px;
+            margin-bottom: 90px;
+            /* padding-bottom: 80px; */
+        }
+        #item1{
+            overflow:visible;
+        }
+        #item2{
+            overflow:hidden;
+        }
+        #item3{
+            overflow:scroll;
+        }
+        #item4{
+            overflow:auto;
+        }
+        #item5{
+            overflow-x:scroll;
+        }
+        #parag5{
+            width: 1000px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box" id="item1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam
+      sunt vel, deserunt voluptatum perspiciatis voluptatem optio reiciendis
+      exercitationem quis amet esse quam consequatur magnam id! Necessitatibus
+      assumenda repellat animi ratione deserunt ullam quidem? Repudiandae porro
+      quo itaque inventore corrupti.
+    </div>
+    <div class="box" id="item2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam
+      sunt vel, deserunt voluptatum perspiciatis voluptatem optio reiciendis
+      exercitationem quis amet esse quam consequatur magnam id! Necessitatibus
+      assumenda repellat animi ratione deserunt ullam quidem? Repudiandae porro
+      quo itaque inventore corrupti.
+    </div>
+    <div class="box" id="item3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam
+      sunt vel, deserunt voluptatum perspiciatis voluptatem optio reiciendis
+      exercitationem quis amet esse quam consequatur magnam id! Necessitatibus
+      assumenda repellat animi ratione deserunt ullam quidem? Repudiandae porro
+      quo itaque inventore corrupti.
+    </div>
+    <div class="box" id="item4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam
+      sunt vel, deserunt voluptatum perspiciatis voluptatem optio reiciendis
+      exercitationem quis amet esse quam consequatur magnam id! Necessitatibus
+      assumenda repellat animi ratione deserunt ullam quidem? Repudiandae porro
+      quo itaque inventore corrupti.
+    </div>
+    <div class="box" id="item5">
+     <p id="parag5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam
+      sunt vel, deserunt voluptatum perspiciatis voluptatem optio reiciendis
+      exercitationem quis amet esse quam consequatur magnam id! Necessitatibus
+      assumenda repellat animi ratione deserunt ullam quidem? Repudiandae porro
+      quo itaque inventore corrupti.
+    </p>
+    </div>
+  </body>
+</html>
