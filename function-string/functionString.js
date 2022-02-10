@@ -274,6 +274,6 @@ console.log(multi(3, 5));
 let ali =(a) => a + 100;
 
 let ne = (a,b) => a * b 
-console.log(ne(100,100));  */ 
+// console.log(ne(100,100));  */ 
 
  

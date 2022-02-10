@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+ /*    grid-template-columns: 30% minmax(20%,30%)   50%  5%; */
+ /* grid-template-columns: 30% auto   50%  5%; */
+ /* grid-template-columns: 1fr 1fr 1fr 2fr 2fr; */
+ grid-template-columns: repeat(2,1fr) 400px repeat(2,1fr);
+ /* grid-template-rows: %10 %50; */
+/*  grid-template-rows: 1fr 2fr 1fr 1fr; */
+
+grid-template-rows: 1fr 2fr 1fr 1fr;
+/* grid böyle kullnılmıyor*/
+   /*  column-gap: 20px;
+    row-gap: 20px;
+ */
+}
+
+
+.content{
+    background-color: aqua;
+  /*   box-shadow: 20px 20px 20px gray;
+    border-radius: 5px; */
+    border: 1px solid red;
+    text-align: center;
+    
+    
+}
+img{
+    width: 100%;
+}
+.content1{
+/* 1.yol */
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.content4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgba(110, 148, 21, 0.5);
+    opacity: 0.2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.content3{
+   /*  grid-row-start: 1;
+    grid-row-end: 6; */
+    grid-row: 1/6;   /* kısa yol bu oğlummmmmm */
+    background-color: red;
+}
+
+/* 2 yol span => tane */
+
+.content6{
+ grid-column: 2/span 2; /* span 2 aradaki boşluk önemli */
+
+}
